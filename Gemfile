@@ -6,6 +6,7 @@ gem 'rails', '4.2.2'
 
 gem 'devise'
 gem 'devise-bootstrap-views'
+gem 'omniauth-facebook'
 
 gem 'pg'
 gem 'squeel'
