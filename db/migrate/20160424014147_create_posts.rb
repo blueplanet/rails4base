@@ -4,7 +4,7 @@ class CreatePosts < ActiveRecord::Migration
       t.string :title
       t.text :body
       t.boolean :draft
-      t.time :published_at
+      t.datetime :published_at
 
       t.timestamps null: false
     end
