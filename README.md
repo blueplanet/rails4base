@@ -1,6 +1,6 @@
 ## アプリケーションの名前変更
 
 ```
-git grep -l 'module Rails4base' | xargs sed -i '' 's/Rails4base/Yourappname/g'
-git grep -l 'rails4base' | xargs sed -i '' 's/rails4base/yourappname/g'
+git grep -l 'module RailsFormBuilder' | xargs sed -i '' 's/RailsFormBuilder/Yourappname/g'
+git grep -l 'railsformbuilder' | xargs sed -i '' 's/railsformbuilder/yourappname/g'
 ```
