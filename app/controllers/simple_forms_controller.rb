@@ -1,0 +1,2 @@
+class SimpleFormsController < ApplicationController
+end

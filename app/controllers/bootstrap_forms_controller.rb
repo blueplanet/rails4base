@@ -1,0 +1,2 @@
+class BootstrapFormsController < ApplicationController
+end
