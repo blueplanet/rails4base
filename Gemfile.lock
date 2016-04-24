@@ -51,6 +51,7 @@ GEM
     bootstrap-sass (3.3.4.1)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
+    bootstrap_form (2.3.0)
     builder (3.2.2)
     bullet (4.14.5)
       activesupport (>= 3.0.0)
@@ -292,6 +293,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bootstrap-sass
+  bootstrap_form
   bullet
   capybara
   coffee-rails (~> 4.1.0)

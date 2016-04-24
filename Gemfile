@@ -19,6 +19,7 @@ gem 'font-awesome-rails'
 gem 'kaminari'
 gem 'slim-rails'
 gem 'simple_form'
+gem 'bootstrap_form'
 
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jbuilder', '~> 2.0'

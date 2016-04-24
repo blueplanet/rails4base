@@ -1,0 +1,17 @@
+= bootstrap_form_for Post.new, url: bootstrap_forms_path do |f|
+  = f.text_field :title
+  = f.text_area :body
+  = f.check_box :draft
+  = f.datetime_select :published_at
+  = f.submit
+  
+hr
+
+= bootstrap_form_for Post.new, layout: :horizontal, label_col: 'col-md-3', control_col: 'col-md-9', url: bootstrap_forms_path do |f|
+  = f.text_field :title
+  = f.text_area :body
+  = f.form_group do 
+    = f.check_box :draft
+  = f.datetime_select :published_at
+  = f.form_group do 
+    = f.submit
